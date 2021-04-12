@@ -1,0 +1,108 @@
+*{
+    font-family:'Poppins',sans-serif;
+    text-align: center;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    background-color: black;
+}
+
+header:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav{
+    z-index: 100;
+    width: 100%;
+    height: 45px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: 0%;
+    font-size: 0.9em;
+    font-weight: 100;
+    color: rgb(210, 210, 210);
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(20px);
+
+}
+
+nav a{
+    margin-inline: 2.3em;
+    padding: 0;
+    text-decoration: none;
+    color: rgb(179, 179, 179);
+}
+
+nav a:hover{
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+}
+
+.nav-text-links{
+    transform: translateY(35%);
+}
+
+p.starting{
+    display: inline-block;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left:0;
+}
+
+h1{
+    font-size: 3em;
+    font-weight: 600;
+}
+
+
+img.iPhone12{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 30px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+p.price_iPhone12{
+    color: rgb(124, 124, 124);
+    font-weight: 300;
+}
+
+
+h3{
+    font-size: 2em;
+    text-align: center;
+    padding-top: -80px;
+    font-weight: 300;
+}
+
+main.iphone_12_pro{
+    background-color: black;
+    color: white;
+    margin-bottom: 70px;
+}
